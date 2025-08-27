@@ -1,0 +1,69 @@
+.content-wrapper{
+max-width: 1200px; 
+  margin: 0 auto;     
+  padding: 3rem;
+
+  .location{
+    max-width: 1200px;  
+    margin: 0;             
+    padding: 40px 0 10px 0;
+    text-align: left;
+
+      h1{
+      font-size: 5rem;
+      margin-bottom: 1rem;
+    }
+
+      p{
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+       .location-card{
+      
+      img {
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 50px;
+      }
+    }
+
+
+   
+
+}
+
+
+// .location-card {
+//   margin-bottom: 3rem;
+  
+// }
+
+
+
+
+@media (max-width: 768px) {
+  .location{
+    padding: 20px;
+
+    h1{
+      font-size: 45px;
+      padding-left: 15px;
+    }
+  }
+  .location p {
+    font-size: 0.95rem;
+    padding: 0 20px; /* 画面端にテキストが張り付かないように */
+  }
+}
+
+}
+
+@media (max-width: 480px) {
+  .location p {
+    font-size: 0.9rem;
+    padding: 0 15px;
+  }
+}
