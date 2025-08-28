@@ -45,25 +45,13 @@ max-width: 1200px;
 
 
 @media (max-width: 768px) {
-  .location{
-    padding: 20px;
+
 
     h1{
-      font-size: 45px;
-      padding-left: 15px;
+      font-size: 3rem !important;
     }
-  }
-  .location p {
-    font-size: 0.95rem;
-    padding: 0 20px; /* 画面端にテキストが張り付かないように */
-  }
-}
+  
 
 }
 
-@media (max-width: 480px) {
-  .location p {
-    font-size: 0.9rem;
-    padding: 0 15px;
-  }
 }

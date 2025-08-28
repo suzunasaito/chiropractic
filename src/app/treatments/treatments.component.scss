@@ -82,10 +82,18 @@
 @media (max-width: 767px) {
 
   // Session
+
+   .treatments{
+      h1{
+        font-size: 3rem !important;
+      }
+    }
   .session-container {
     flex-direction: column; 
     padding: 1.5rem;
     flex-direction: column;
+    flex-wrap: nowrap !important;
+    min-width: 320px;
     
     .session-image {
       order: 0;              

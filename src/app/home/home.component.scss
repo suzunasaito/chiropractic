@@ -205,10 +205,18 @@
   .treatment h1, .openhours h1 { font-size: 2rem; }
 
   // Session
+   .treatment{
+      h1{
+        font-size: 3rem;
+      }
+    }
+
   .session-container {
     flex-direction: column; 
     padding: 1.5rem;
     flex-direction: column;
+    flex-wrap: nowrap !important;
+    min-width: 320px;
     
     .session-image {
       order: 0;              
