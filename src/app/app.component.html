@@ -3,7 +3,7 @@
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <!-- Navigation left logo -->
-      <a class="navbar-brand" routerLink="/">
+      <a class="navbar-brand" routerLink="/" (click)="closeNavbar()">
         <img src="chirologo.png" alt="Logo">
       </a>
 
@@ -17,16 +17,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto align-items-center">
           <li class="nav-item mx-1">
-            <a class="nav-link" aria-current="page" routerLink="/">Home</a>
+            <a class="nav-link" aria-current="page" routerLink="/" (click)="closeNavbar()">Home</a>
           </li>
           <li class="nav-item mx-1">
-            <a class="nav-link" routerLink="/about">About</a>
+            <a class="nav-link" routerLink="/about" (click)="closeNavbar()">About</a>
           </li>
           <li class="nav-item mx-1">
-            <a class="nav-link" routerLink="/treatments">Treatments</a>
+            <a class="nav-link" routerLink="/treatments" (click)="closeNavbar()">Treatments</a>
           </li>
           <li class="nav-item mx-1">
-            <a class="nav-link" routerLink="/location">Locations</a>
+            <a class="nav-link" routerLink="/location" (click)="closeNavbar()">Locations</a>
           </li>
           <li class="nav-item mx-1">
             <a class="btn btn-primary mt-2 mt-lg-0" href="https://jane.app/" target="_blank">BOOK NOW</a>

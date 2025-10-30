@@ -12,6 +12,13 @@
   object-fit: cover;
   z-index: 0;
 }
+.hero-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.hero-video::-moz-media-controls {
+  display: none !important;
+}
 
 .hero-overlay {
   position: relative;
