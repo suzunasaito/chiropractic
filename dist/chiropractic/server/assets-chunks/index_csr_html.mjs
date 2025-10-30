@@ -14,6 +14,6 @@ export default `<!doctype html>
 <link rel="stylesheet" href="styles-5AXVTDPM.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-5AXVTDPM.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-EAPCX7SV.js" type="module"></script></body>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-BSIZEUO5.js" type="module"></script></body>
 </html>
 `;
