@@ -14,15 +14,15 @@
 }
 
 }
-.navbar-collapse.collapse {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease-in-out;
-}
+// .navbar-collapse.collapse {
+//   max-height: 0;
+//   overflow: hidden;
+//   transition: max-height 0.4s ease-in-out;
+// }
 
-.navbar-collapse.collapse.show {
-  max-height: 500px; 
-}
+// .navbar-collapse.collapse.show {
+//   max-height: 500px; 
+// }
 
 
 // humburger icon
@@ -123,6 +123,15 @@
 @media (max-width: 991px) { 
   .navbar-nav .btn.btn-primary {
     margin-bottom: 1.6rem;
+  }
+  .navbar-collapse.collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .navbar-collapse.collapse.show {
+    max-height: 500px;
   }
 }
 
