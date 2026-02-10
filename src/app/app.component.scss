@@ -5,12 +5,16 @@
   z-index: 1000;
 
     .navbar-brand img {
-    height: 40px;
+    height: 45px;
     padding: 3px 0 0 12px;
 }
 
     .navbar-nav .nav-link {
     font-weight: 400;
+    font-size: 18px;
+    margin-right: 10px;
+
+   
 }
 
 }
@@ -70,6 +74,7 @@
 }
 
 
+
 // Footer
 
 .footer-container {
@@ -127,7 +132,7 @@
   .navbar-collapse.collapse {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-in-out;
+    transition: max-height 0.8s ease-in-out; 
   }
 
   .navbar-collapse.collapse.show {
@@ -140,9 +145,9 @@
   height: 30px !important;
 }
 
-body{
-  color: none;
-}
+// body{
+//   color: none;
+// }
   .footer-container {
     flex-direction: column;
     align-items: flex-start;

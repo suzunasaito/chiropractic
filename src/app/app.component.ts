@@ -1,20 +1,31 @@
 import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterModule],
+  imports: [RouterOutlet, RouterModule, FormsModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
+  providers: [HttpClient]
 })
 export class AppComponent {
   title = 'chiropractic';
 
-  closeNavbar() {
-    const navbar = document.querySelector('.navbar-collapse.show') as HTMLElement;
-    if (navbar) {
-      const collapse = new (window as any).bootstrap.Collapse(navbar, { toggle: false });
-      collapse.hide();
-    }
+  isNavbarOpen = false;
+
+  toggleNavbar() {
+    this.isNavbarOpen = !this.isNavbarOpen;
   }
+
+  closeNavbar() {
+    this.isNavbarOpen = false;
+  }
+
+  constructor(private http:HttpClient){
+    
+  }
+
+
 }
