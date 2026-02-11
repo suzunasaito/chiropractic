@@ -7,6 +7,8 @@
     .navbar-brand img {
     height: 45px;
     padding: 3px 0 0 12px;
+    text-decoration: none;
+    
 }
 
     .navbar-nav .nav-link {
@@ -18,16 +20,6 @@
 }
 
 }
-// .navbar-collapse.collapse {
-//   max-height: 0;
-//   overflow: hidden;
-//   transition: max-height 0.4s ease-in-out;
-// }
-
-// .navbar-collapse.collapse.show {
-//   max-height: 500px; 
-// }
-
 
 // humburger icon
 .navbar-toggler {
@@ -142,12 +134,10 @@
 
 @media (max-width: 768px) {
   .navbar-brand img {
-  height: 30px !important;
+  height: 34px !important;
 }
 
-// body{
-//   color: none;
-// }
+
   .footer-container {
     flex-direction: column;
     align-items: flex-start;
